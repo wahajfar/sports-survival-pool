@@ -9,7 +9,11 @@ You get:
 
 It runs entirely on **free tiers** (Vercel + GitHub Actions + ESPN's public feed). The only paid bit is a few cents of Anthropic API for the standings brain.
 
+### ▶ [See a live demo →](https://survival-pool-demo.vercel.app)  &nbsp;•&nbsp;  Launch your own in one click:
+
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/wahajfar/sports-survival-pool)
+
+> Then edit two files (`config.json` + `data/roster.json`), add two secrets, and it runs itself for the whole tournament.
 
 ---
 
