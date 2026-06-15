@@ -1,0 +1,22 @@
+{
+  "title": "Survival Pool Roster",
+  "_help": "One entry per player. team = exact national-team name (match the competition). group = group letter (or '' for non-group formats). flag = emoji. photo = image URL or null. slackId = Slack member ID for @-mentions, or null. Replace these examples with your people.",
+  "people": [
+    { "name": "Player 1", "team": "Mexico", "group": "A", "flag": "🇲🇽", "photo": null, "slackId": null },
+    { "name": "Player 2", "team": "South Africa", "group": "A", "flag": "🇿🇦", "photo": null, "slackId": null },
+    { "name": "Player 3", "team": "Korea Republic", "group": "A", "flag": "🇰🇷", "photo": null, "slackId": null },
+    { "name": "Player 4", "team": "Czech Republic", "group": "A", "flag": "🇨🇿", "photo": null, "slackId": null },
+    { "name": "Player 5", "team": "Brazil", "group": "C", "flag": "🇧🇷", "photo": null, "slackId": null },
+    { "name": "Player 6", "team": "Morocco", "group": "C", "flag": "🇲🇦", "photo": null, "slackId": null },
+    { "name": "Player 7", "team": "Haiti", "group": "C", "flag": "🇭🇹", "photo": null, "slackId": null },
+    { "name": "Player 8", "team": "Scotland", "group": "C", "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "photo": null, "slackId": null },
+    { "name": "Player 9", "team": "Germany", "group": "E", "flag": "🇩🇪", "photo": null, "slackId": null },
+    { "name": "Player 10", "team": "Curaçao", "group": "E", "flag": "🇨🇼", "photo": null, "slackId": null },
+    { "name": "Player 11", "team": "Côte d'Ivoire", "group": "E", "flag": "🇨🇮", "photo": null, "slackId": null },
+    { "name": "Player 12", "team": "Ecuador", "group": "E", "flag": "🇪🇨", "photo": null, "slackId": null },
+    { "name": "Player 13", "team": "England", "group": "L", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "photo": null, "slackId": null },
+    { "name": "Player 14", "team": "Croatia", "group": "L", "flag": "🇭🇷", "photo": null, "slackId": null },
+    { "name": "Player 15", "team": "Ghana", "group": "L", "flag": "🇬🇭", "photo": null, "slackId": null },
+    { "name": "Player 16", "team": "Panama", "group": "L", "flag": "🇵🇦", "photo": null, "slackId": null }
+  ]
+}

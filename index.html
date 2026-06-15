@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="docTitle">Survival Pool</title>
+  <meta name="description" content="A tournament survival pool — live standings, bracket, and scores." />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;🏆&lt;/text&gt;&lt;/svg&gt;" />
+</head>
+<body>
+  <main class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="mark">🏆</div>
+        <div class="wordmark" id="brandName">SURVIVAL POOL</div>
+      </div>
+      <div class="edition" id="editionTag">Tournament</div>
+    </div>
+
+    <header class="hero">
+      <div class="kicker" id="heroKicker">Survival Pool</div>
+      <h1 id="poolName">Survival Pool</h1>
+      <p class="tagline" id="tagline">Your team's alive? You're alive. Last one standing wins.</p>
+      <div class="pills" id="pills"></div>
+      <p class="updated" id="updated"></p>
+    </header>
+
+    <section class="champion-banner" id="championBanner" hidden></section>
+
+    <section class="matches-section" id="matchesSection" hidden>
+      <div class="matches-head" id="matchstripTitle">Upcoming matches</div>
+      <div class="matchstrip" id="matchstrip"></div>
+    </section>
+
+    <div class="tabs" role="tablist">
+      <button class="tab is-active" data-view="leaderboard" role="tab">Standings</button>
+      <button class="tab" data-view="bracket" role="tab">Bracket</button>
+      <button class="tab" data-view="groups" role="tab">Groups</button>
+      <button class="tab" data-view="results" role="tab">Results</button>
+    </div>
+
+    <section id="view-leaderboard" class="view">
+      <div class="legend">
+        <span><b class="dot alive"></b> Alive</span>
+        <span><b class="dot out"></b> Eliminated</span>
+        <span class="legend-note">Ranked by how far each team has gone, then current form.</span>
+      </div>
+      <ol class="board" id="board"></ol>
+    </section>
+
+    <section id="view-bracket" class="view" hidden>
+      <p class="bracket-note" id="bracketNote"></p>
+      <div class="bracket-scroll"><div class="bracket" id="bracket"></div></div>
+    </section>
+
+    <section id="view-groups" class="view" hidden>
+      <div class="groups" id="groups"></div>
+    </section>
+
+    <section id="view-results" class="view" hidden>
+      <ul class="results" id="results"></ul>
+    </section>
+
+    <footer class="foot">
+      <p id="footNote">Auto-updates a few times a day from live results.</p>
+      <p class="muted">Built with the open Survival Pool template 🏆</p>
+    </footer>
+  </main>
+
+  <div class="loading" id="loading">Loading…</div>
+  <script src="./app.js"></script>
+</body>
+</html>

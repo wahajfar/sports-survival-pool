@@ -1,0 +1,21 @@
+{
+  "poolName": "Survival Pool",
+  "tagline": "Your team's alive? You're alive. Last one standing wins.",
+  "logoText": "SURVIVAL POOL",
+  "edition": "World Cup 2026",
+  "competition": {
+    "name": "FIFA World Cup 2026",
+    "espnLeague": "fifa.world",
+    "format": "12 groups of 4; top 2 of each group + 8 best third-placed teams reach the Round of 32, then R16 → quarter-finals → semi-finals → final.",
+    "finalLabel": "Final: July 19, 2026"
+  },
+  "siteUrl": "https://your-pool.vercel.app",
+  "theme": {
+    "bg": "#EDEEF2",
+    "card": "#FFFFFF",
+    "ink": "#111827",
+    "accent": "#2563EB",
+    "highlight": "#16A34A",
+    "live": "#EF4444"
+  }
+}
