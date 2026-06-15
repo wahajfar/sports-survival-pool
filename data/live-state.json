@@ -1,1 +1,14 @@
-{}
+{
+  "760426": {
+    "kickoff": true,
+    "half": false,
+    "full": false
+  },
+  "760427": {},
+  "760428": {
+    "kickoff": true,
+    "half": true,
+    "full": true
+  },
+  "760429": {}
+}
